@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: "Khula-Regular";  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Khula-Bold";
+  src: local("Khula-Bold"), url("../public/fonts/khula/Khula-Bold.ttf") format("truetype");
+  font-weight: bold;
+ }
+
+ @font-face {
+  font-family: "Khula-Regular";
+  src: local("Khula-Regular"), url("../public/fonts/khula/Khula-Regular.ttf") format("truetype");
+  font-weight: normal;
+ 
+}

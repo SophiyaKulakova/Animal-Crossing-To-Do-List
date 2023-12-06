@@ -1,0 +1,137 @@
+header {
+  height: 100px; 
+  background: #53AB7F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.main-container {
+  background:#FBFEB2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.app-name {
+  color: #FBFEB2;
+  font-size: 64px;
+}
+
+.to-do-container {
+  background:#C4D9A9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+  padding: 1em;
+}
+
+.to-do-list {
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat auto-fill;
+  grid-column-gap: 18px;
+  grid-row-gap: 20px;
+  justify-content: center;
+
+}
+
+
+
+.plus-button {
+  background: #53AB7F;
+  border: none;
+  padding: 5px 5px 3px 5px;
+  margin-top: 20px;
+}
+
+.plus-button img {
+  height: 25px;
+}
+
+.error {
+  border: rgb(255, 132, 0) 1px solid;
+}
+
+.error-message {
+  color: rgb(255, 132, 0)
+}
+
+.filter-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 200px;
+  margin: 1em;
+
+}
+
+.nonactive-filter {
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.active-filter {
+  background-color: #53AB7F;
+  transform: scale(0.96);
+  border-radius: 6px;
+  transition: all 0.2s ease-out;
+}
+
+.li-item { 
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.li-item span {
+  margin-left: 10px;
+  width: 70%;
+  line-height: 1;
+}
+
+.li-item button {
+  margin-left: auto;
+  width: 24px;
+  height: 24px;
+}
+
+.li-done {
+  text-decoration: line-through;
+}
+
+.li-done button {
+  display: none;
+}
+
+.checkmark-input {
+  background-color: initial;
+  
+  background-image: url("C:\Users\user\react-projects\to-do-list\public/icons/checkmark.png");
+  appearance: auto;
+  box-sizing: border-box;
+  margin: 3px 3px 3px 4px;
+  padding: initial;
+  border: initial
+}
+
+ .img-delete-button { 
+  width: 24px;
+  height: 24px;
+} 
+
+.li-item button {
+  margin-left: auto;
+  width: auto;
+  height: auto;
+  border: none;
+  background-color: #fff;
+}
